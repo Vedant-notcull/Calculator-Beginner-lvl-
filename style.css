@@ -1,0 +1,80 @@
+body {
+    font-size: 15px;
+    margin:0;
+    background-color: #696969
+}
+
+button{
+  width :77px;
+  height:77px;
+  vertical-align: top;
+  border-radius:55px;
+  margin:5px;
+  font-size:30px;
+  color:white;
+  border:none;
+
+}
+
+.screen {
+  font-size: 55px;
+  width:100%;
+  height:150px;
+  overflow: auto;
+  display: flex;
+  justify-content: start;
+  align-items:end;
+  color:white
+}
+
+main{
+  background-color: #101010;
+  width:360px;
+  display: flex;
+  flex-direction: column;
+}
+
+.clickButtons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top:20px;
+  
+  
+}
+.gray-sec{
+  flex:3;
+  
+}
+
+.yellow-sec{
+  flex:1;
+  margin: 0;
+  text-align: start;
+
+}
+.gray-btn{
+  background-color: #525254;
+  margin-bottom:23px;
+}
+
+.yellow-btn{
+  background-color: #E4981C;
+  margin-bottom:23px;
+}
+
+@media (min-width:450px){
+  main{
+    width:100%
+  }
+  button{
+    width:140px;
+    height:140px;
+    margin:19px;
+    border-radius:100px;
+    font-size:50px;
+  }
+  .screen{
+    font-size: 80px;
+  }
+}
